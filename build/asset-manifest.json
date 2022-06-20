@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/ArnabBaksi/PortFolio/static/css/main.f4903a68.css",
-    "main.js": "/ArnabBaksi/PortFolio/static/js/main.a5992c10.js",
-    "static/js/415.4d6acbeb.chunk.js": "/ArnabBaksi/PortFolio/static/js/415.4d6acbeb.chunk.js",
-    "static/js/787.1ed0c42c.chunk.js": "/ArnabBaksi/PortFolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/profile.png": "/ArnabBaksi/PortFolio/static/media/profile.10a636b6faef7e081965.png",
-    "static/media/codeEditor.png": "/ArnabBaksi/PortFolio/static/media/codeEditor.ba9458794dca1c746ef2.png",
-    "static/media/blog.png": "/ArnabBaksi/PortFolio/static/media/blog.52102140f369ea233010.png",
-    "static/media/chatify.png": "/ArnabBaksi/PortFolio/static/media/chatify.9373eddae1a258056c35.png",
-    "static/media/leaf.png": "/ArnabBaksi/PortFolio/static/media/leaf.4c15d6eb3fc75cfef85b.png",
-    "static/media/home-main.svg": "/ArnabBaksi/PortFolio/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
-    "static/media/Arnab-baksi-CV.pdf": "/ArnabBaksi/PortFolio/static/media/Arnab-baksi-CV.0b83fe343d697f81d1c7.pdf",
-    "static/media/about.png": "/ArnabBaksi/PortFolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
-    "static/media/suicide.png": "/ArnabBaksi/PortFolio/static/media/suicide.b72f1f9ffeb4775a7803.png",
-    "static/media/home-bg.jpg": "/ArnabBaksi/PortFolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
-    "static/media/emotion.jpeg": "/ArnabBaksi/PortFolio/static/media/emotion.e92e314a236f65bb89af.jpeg",
-    "static/media/pre.svg": "/ArnabBaksi/PortFolio/static/media/pre.4410c5baaa673cc131da.svg",
-    "index.html": "/ArnabBaksi/PortFolio/index.html",
-    "main.f4903a68.css.map": "/ArnabBaksi/PortFolio/static/css/main.f4903a68.css.map",
-    "main.a5992c10.js.map": "/ArnabBaksi/PortFolio/static/js/main.a5992c10.js.map",
-    "415.4d6acbeb.chunk.js.map": "/ArnabBaksi/PortFolio/static/js/415.4d6acbeb.chunk.js.map",
-    "787.1ed0c42c.chunk.js.map": "/ArnabBaksi/PortFolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/PortFolio/static/css/main.2914d7c1.css",
+    "main.js": "/PortFolio/static/js/main.504f99c8.js",
+    "static/js/415.4d6acbeb.chunk.js": "/PortFolio/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/PortFolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/profile.png": "/PortFolio/static/media/profile.10a636b6faef7e081965.png",
+    "static/media/codeEditor.png": "/PortFolio/static/media/codeEditor.ba9458794dca1c746ef2.png",
+    "static/media/blog.png": "/PortFolio/static/media/blog.52102140f369ea233010.png",
+    "static/media/chatify.png": "/PortFolio/static/media/chatify.9373eddae1a258056c35.png",
+    "static/media/leaf.png": "/PortFolio/static/media/leaf.4c15d6eb3fc75cfef85b.png",
+    "static/media/home-main.svg": "/PortFolio/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
+    "static/media/Arnab-baksi-CV.pdf": "/PortFolio/static/media/Arnab-baksi-CV.0b83fe343d697f81d1c7.pdf",
+    "static/media/about.png": "/PortFolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/suicide.png": "/PortFolio/static/media/suicide.b72f1f9ffeb4775a7803.png",
+    "static/media/home-bg.jpg": "/PortFolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/emotion.jpeg": "/PortFolio/static/media/emotion.e92e314a236f65bb89af.jpeg",
+    "static/media/pre.svg": "/PortFolio/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/PortFolio/index.html",
+    "main.2914d7c1.css.map": "/PortFolio/static/css/main.2914d7c1.css.map",
+    "main.504f99c8.js.map": "/PortFolio/static/js/main.504f99c8.js.map",
+    "415.4d6acbeb.chunk.js.map": "/PortFolio/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/PortFolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4903a68.css",
-    "static/js/main.a5992c10.js"
+    "static/css/main.2914d7c1.css",
+    "static/js/main.504f99c8.js"
   ]
 }
