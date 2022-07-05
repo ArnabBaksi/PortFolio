@@ -24,11 +24,11 @@ function AboutCard() {
             </li>
       
           </ul>
-
+{/* 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "There is perfection in imperfection !"{" "}
           </p>
-          <footer className="blockquote-footer">Arnab</footer>
+          <footer className="blockquote-footer">Arnab</footer> */}
         </blockquote>
       </Card.Body>
     </Card>
