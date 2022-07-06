@@ -58,7 +58,7 @@ function Projects() {
               imgPath={leaf}
               isBlog={false}
               title="Batch Process Automation(RPA)"
-              description=""
+              description="Its a RPA bot developed using Microsoft Power automate and VBScript, a bulk record of company names , address, city and other details are collected and feed to the bot , the bot cross match the bulk records with SAP System and generates the match entry Along with their respective ID , contact person ,person id, email etc."
             
             />
           </Col>
@@ -68,7 +68,7 @@ function Projects() {
               imgPath={suicide}
               isBlog={false}
               title="Payments From Lawyers(RPA)"
-              description=""
+              description="Its a RPA bot developed using Microsoft Power automate and VBScript which detects some specific records in bank statements in the SAP and corrects them accordingly"
             
             />
           </Col>
@@ -78,11 +78,11 @@ function Projects() {
               imgPath={emotion}
               isBlog={false}
               title="Bank Reconciliation process(RPA)"
-              description=""
+              description="ITs a combination of OCR with RPA where A invoice in a form of PDF or A excel ofa bank is provided to the bot , it extracts all the records from the statement and crosscheck with the GL account and updates all the record to the SAP and generates a detail report of the transactions."
       
             />
           </Col>
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
@@ -90,22 +90,22 @@ function Projects() {
               description=""
            
             />
-          </Col>
+          </Col> */}
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={editor}
               isBlog={false}
               title="SmartShoe"
-              description=""
+              description="Its a in-house project for arodek where a smart iot ble device embedded with the shoe and a mobile app was developed along with a administrator system using react js for the admin portal, node js, express and mongodb for its backend and Native Android for the application "
           
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={chatify}
               isBlog={false}
               title="arodek Attendance App"
-              description=""
+              description="Its a in-house project of arodek where the attendance of every employee is tracked along with their respective location and time of entry and exit ,its developed using rect native and as its backend existing arodek crm system and PHP CI."
           
             />
           </Col>
