@@ -22,7 +22,10 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Teaching
             </li>
-      
+            <li className="about-activity">
+              <ImPointRight /> Cooking
+            </li>
+          
           </ul>
 {/* 
           <p style={{ color: "rgb(155 126 172)" }}>
