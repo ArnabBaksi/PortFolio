@@ -3,9 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import smartshoe from "../../Assets/Projects/smartshoe.jfif";
+import energypacProject from "../../Assets/Projects/energypacProject.jpg";
 import rpa2 from "../../Assets/Projects/rpa2.jfif";
 import attendance from "../../Assets/Projects/attendance.jpg";
-import chatify from "../../Assets/Projects/chatify.png";
+// import chatify from "../../Assets/Projects/chatify.png";
 import rpa3 from "../../Assets/Projects/rpa3.jfif";
 import rpa1 from "../../Assets/Projects/rpa1.jpg";
 import ifb from "../../Assets/Projects/IFB-Login.png";
@@ -75,7 +76,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={rpa1}
+              imgPath={energypacProject}
               isBlog={false}
               title="Bank Reconciliation process(RPA)"
               description="ITs a combination of OCR with RPA where A invoice in a form of PDF or A excel ofa bank is provided to the bot , it extracts all the records from the statement and crosscheck with the GL account and updates all the record to the SAP and generates a detail report of the transactions."
@@ -107,6 +108,14 @@ function Projects() {
               title="arodek Attendance App"
               description="Its a in-house project of arodek where the attendance of every employee is tracked along with their respective location and time of entry and exit ,its developed using rect native and as its backend existing arodek crm system and PHP CI."
           
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={rpa1}
+              isBlog={false}
+              title="Reimbursement Process (RPA)"
+              description="Its RPA project for TÜV Rheinland Pvt where user can submit an e-form containing the details of their purchase along with an attachment file, RPA bot after receiving the response validates with the SAP system and generates an xml file along with a pdf with attached attachment file and mail it to the specific team."
             />
           </Col>
         </Row>
