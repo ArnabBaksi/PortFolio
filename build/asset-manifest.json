@@ -1,28 +1,30 @@
 {
   "files": {
     "main.css": "/PortFolio/static/css/main.1b1f4c50.css",
-    "main.js": "/PortFolio/static/js/main.956d9465.js",
+    "main.js": "/PortFolio/static/js/main.a3de4a71.js",
     "static/media/profile.png": "/PortFolio/static/media/profile.10a636b6faef7e081965.png",
     "static/media/energypacProject.jpg": "/PortFolio/static/media/energypacProject.b2b2a986e6c9042f196d.jpg",
+    "static/media/HRMS.png": "/PortFolio/static/media/HRMS.73355473c7137d8e9e63.png",
     "static/media/NeedOxy-home.png": "/PortFolio/static/media/NeedOxy-home.083a3f16b83cd7acdab5.png",
+    "static/media/Arnab-baksi-CV.pdf": "/PortFolio/static/media/Arnab-baksi-CV.081998e5902ca06267e0.pdf",
     "static/media/IFB-Login.png": "/PortFolio/static/media/IFB-Login.5079125f2e2a989b4833.png",
     "static/media/home-main.svg": "/PortFolio/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
     "static/media/jeewanseva-login.png": "/PortFolio/static/media/jeewanseva-login.22e4aa22798513a71684.png",
-    "static/media/Arnab-baksi-CV.pdf": "/PortFolio/static/media/Arnab-baksi-CV.0b83fe343d697f81d1c7.pdf",
     "static/media/about.png": "/PortFolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/rpa1.jpg": "/PortFolio/static/media/rpa1.96cd8f29c4f9eccbf943.jpg",
     "static/media/attendance.jpg": "/PortFolio/static/media/attendance.620453e93a99e6eb46a2.jpg",
     "static/media/rpa3.jfif": "/PortFolio/static/media/rpa3.6149ff40f28942381d3c.jfif",
+    "static/media/taxDigitization.png": "/PortFolio/static/media/taxDigitization.ca92a25a32f5e4569ebf.png",
     "static/media/home-bg.jpg": "/PortFolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/smartshoe.jfif": "/PortFolio/static/media/smartshoe.63bc38fd0907ef778aa8.jfif",
     "static/media/rpa2.jfif": "/PortFolio/static/media/rpa2.a637f321881dc9edc651.jfif",
     "static/media/pre.svg": "/PortFolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/PortFolio/index.html",
     "main.1b1f4c50.css.map": "/PortFolio/static/css/main.1b1f4c50.css.map",
-    "main.956d9465.js.map": "/PortFolio/static/js/main.956d9465.js.map"
+    "main.a3de4a71.js.map": "/PortFolio/static/js/main.a3de4a71.js.map"
   },
   "entrypoints": [
     "static/css/main.1b1f4c50.css",
-    "static/js/main.956d9465.js"
+    "static/js/main.a3de4a71.js"
   ]
 }
