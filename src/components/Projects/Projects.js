@@ -5,6 +5,8 @@ import Particle from "../Particle";
 import smartshoe from "../../Assets/Projects/smartshoe.jfif";
 import energypacProject from "../../Assets/Projects/energypacProject.jpg";
 import rpa2 from "../../Assets/Projects/rpa2.jfif";
+import HRMS from "../../Assets/Projects/HRMS.png";
+import taxDigitization from "../../Assets/Projects/taxDigitization.png";
 import attendance from "../../Assets/Projects/attendance.jpg";
 // import chatify from "../../Assets/Projects/chatify.png";
 import rpa3 from "../../Assets/Projects/rpa3.jfif";
@@ -118,6 +120,22 @@ function Projects() {
               description="Its RPA project for TÜV Rheinland Pvt where user can submit an e-form containing the details of their purchase along with an attachment file, RPA bot after receiving the response validates with the SAP system and generates an xml file along with a pdf with attached attachment file and mail it to the specific team."
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={HRMS}
+              isBlog={false}
+              title="HRMS Solution"
+              description="Its a HRMS solution where the portal is developed using React JS as front-end and Node,Express and mongo db as its Back-end , its a dynamic web portal where all its components are controlled and depends upon the API responses and user Role."
+            />
+          </Col>
+          {/* <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={taxDigitization}
+              isBlog={false}
+              title="Tax Digitalization solution"
+              description="Its a OCR portal developed using React js , Node,Express, mongo db and python with connection to SAP B-One."
+            />
+          </Col> */}
         </Row>
       </Container>
     </Container>
