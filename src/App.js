@@ -29,7 +29,8 @@ function App() {
       userDecisionTimeout: 5000,
     });
   useEffect(async () => {
-
+    console.log("available = ",isGeolocationAvailable)
+    console.log("enable = ",isGeolocationEnabled)
     if (isGeolocationEnabled && isGeolocationAvailable && coords != undefined) {
 var location = {
         latitude: coords.latitude,
@@ -54,10 +55,12 @@ var location = {
             today.getSeconds(),
           locations: location,
         });
+        console.log("THERE IS NO RESPONSE HERE")
+
         var response = await userdetails(platform);
         if(response.data.status===200)
         {
-
+          console.log("THERE IS NO RE-SPONSE TO SEE HERE")
         }
         upadateLoad(false);
       } catch (err) {
@@ -85,10 +88,12 @@ var location = {
             today.getSeconds(),
           locations: location,
         });
+        console.log("THERE IS NO RESPONSE  HERE")
      
         var response = await userdetails(platform);
         if(response.data.status===200)
         {
+          console.log("THERE IS NO RE-SPONSE TO SEE HERE")
 
         }
         upadateLoad(false);
