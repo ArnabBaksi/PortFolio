@@ -6,51 +6,100 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
-import platform from 'platform';
+import platform from "platform";
 import {
   BrowserRouter as Router,
   Route,
   Routes,
-  Navigate
+  Navigate,
 } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { userdetails } from "./components/api/api";
-
+import { useGeolocated } from "react-geolocated";
 function App() {
   const [load, upadateLoad] = useState(true);
-  // const [location,setlocation]=useState({})
-  var location = {}
+  const { coords, isGeolocationAvailable, isGeolocationEnabled } =
+    useGeolocated({
+      positionOptions: {
+        enableHighAccuracy: false,
+      },
+      userDecisionTimeout: 5000,
+    });
   useEffect(async () => {
 
-    // console.log("platform details = ", platform)
-    navigator.geolocation.getCurrentPosition(async function(position) {
-      //  console.log("location is :", position.coords);
-      // console.log("Longitude is :", position.coords.longitude);
-   
-      location = {latitude:position.coords.latitude,longitude:position.coords.longitude,altitude:position.coords.altitude};
-    });
-    let today = new Date()
-    try{
-     var data =  Object.assign(platform,{currentdate:today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate() +"  " +today.getHours() +":"+today.getMinutes()+":"+today.getSeconds(),locations:location})
-     console.log("platform = ",platform)
-    var response = await userdetails(platform)
-    // var response = "hv"
-    var res = response.data;
-    upadateLoad(false);
+    if (isGeolocationEnabled && isGeolocationAvailable && coords != undefined) {
+var location = {
+        latitude: coords.latitude,
+        longitude: coords.longitude,
+        altitude: coords.altitude,
+      };
 
-    // console.log("api response = ",res);
-    // const timer = setTimeout(() => {
-      // upadateLoad(false);
-    // }, 1000);
-  }catch(err){
-    console.log(err)
-    upadateLoad(false);
-  }
-    // return () => clearTimeout(timer);
-  }, []);
+      let today = new Date();
+      try {
+       Object.assign(platform, {
+          currentdate:
+            today.getFullYear() +
+            "-" +
+            (today.getMonth() + 1) +
+            "-" +
+            today.getDate() +
+            "  " +
+            today.getHours() +
+            ":" +
+            today.getMinutes() +
+            ":" +
+            today.getSeconds(),
+          locations: location,
+        });
+        var response = await userdetails(platform);
+        if(response.data.status===200)
+        {
+
+        }
+        upadateLoad(false);
+      } catch (err) {
+        console.log(err);
+        upadateLoad(false);
+      }
+
+      upadateLoad(false);
+    } else {
+      var location = { latitude: "no location access" };
+      let today = new Date();
+      try {
+        Object.assign(platform, {
+          currentdate:
+            today.getFullYear() +
+            "-" +
+            (today.getMonth() + 1) +
+            "-" +
+            today.getDate() +
+            "  " +
+            today.getHours() +
+            ":" +
+            today.getMinutes() +
+            ":" +
+            today.getSeconds(),
+          locations: location,
+        });
+     
+        var response = await userdetails(platform);
+        if(response.data.status===200)
+        {
+
+        }
+        upadateLoad(false);
+      } catch (err) {
+        console.log(err);
+        upadateLoad(false);
+      }
+
+      upadateLoad(false);
+    }
+  }, [coords]);
 
   return (
     <Router>
@@ -63,7 +112,7 @@ function App() {
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="*" element={<Navigate to="/"/>} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
       </div>

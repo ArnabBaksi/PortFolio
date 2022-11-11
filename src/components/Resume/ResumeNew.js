@@ -3,19 +3,15 @@ import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
  import pdf from "../../Assets/../Assets/Arnab-baksi-CV.pdf";
-// import pdf from "https://drive.google.com/file/d/10bCUmUsmJpP--YJsn0-N9Yj0_B2A1JAa/view?usp=share_link";
-// import pdf from "https://arodekkol-my.sharepoint.com/:b:/g/personal/arnab_baksi_arodek_com/EXfCowar7fdMrbNO-EbXDIgB9B1_nUwS03inGXq5LmY9Fg?e=h2TfIH"
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
-// const pdf = "https://github.com/ArnabBaksi/PortFolio/raw/main/src/Assets/Arnab-baksi-CV.pdf"
 
 function ResumeNew() {
   const [width, setWidth] = useState(1300);
 
   useEffect(() => {
-    // console.log("hello");
     setWidth(window.innerWidth);
   }, []);
 
