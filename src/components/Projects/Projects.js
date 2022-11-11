@@ -6,7 +6,7 @@ import smartshoe from "../../Assets/Projects/smartshoe.jfif";
 import energypacProject from "../../Assets/Projects/energypacProject.jpg";
 import rpa2 from "../../Assets/Projects/rpa2.jfif";
 import HRMS from "../../Assets/Projects/HRMS.png";
-import taxDigitization from "../../Assets/Projects/taxDigitization.png";
+// import taxDigitization from "../../Assets/Projects/taxDigitization.png";
 import attendance from "../../Assets/Projects/attendance.jpg";
 // import chatify from "../../Assets/Projects/chatify.png";
 import rpa3 from "../../Assets/Projects/rpa3.jfif";

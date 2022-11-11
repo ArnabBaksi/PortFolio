@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
- import pdf from "../../Assets/../Assets/Arnab-Baksi-CV.pdf";
+ import pdf from "../../Assets/../Assets/Arnab-baksi-CV.pdf";
 // import pdf from "https://drive.google.com/file/d/10bCUmUsmJpP--YJsn0-N9Yj0_B2A1JAa/view?usp=share_link";
 // import pdf from "https://arodekkol-my.sharepoint.com/:b:/g/personal/arnab_baksi_arodek_com/EXfCowar7fdMrbNO-EbXDIgB9B1_nUwS03inGXq5LmY9Fg?e=h2TfIH"
 import { AiOutlineDownload } from "react-icons/ai";
